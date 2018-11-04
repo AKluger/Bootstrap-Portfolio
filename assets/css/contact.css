@@ -1,0 +1,34 @@
+/* Style inputs separate stylesheet for contact form*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    background-color: #ffff;
+    padding: 0px;
+    /* padding: 5px 20px 5px 0px; not making an impact*/
+}
