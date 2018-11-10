@@ -13,26 +13,29 @@
 <body>    
     
     <header id="masthead">
-      <div class="container">
-        <div class="row navbar-expand-md d-flex justify-content-between">
-            <div class="col-md-6">
-                <a href="index.html" class="navbar-brand" id="Name" >Alex Kluger</a> 
-            </div>
-            <div class="col-md-4">
-            <nav class="navbar-nav align-self-center flex-row">
-                    <a class=" nav-link"  href="index.html"> About </a>
-                    <a class=" nav-link" href="portfolio.html">Portfolio </a>
-                    <a class=" nav-link " href="contact.html">Contact</a>
-            </nav>
-            </div>
-        </div>
-      </div>
+            <div class="container-fluid">
+                    <div class="row navbar-expand-md d-flex justify-content-between"> 
+                        <!-- All an attempt to center content on sm as requested by HW screenshot-->
+                          <div class="col-md-6">
+                              <nav class="navbar-nav align-self-center d.flex flex-row justify-content-center float-md-left"> 
+                                <a href="index.html" class="navbar-brand w-100 pr-3" id="Name" >Alex Kluger</a> 
+                              </nav> 
+                          </div>
+                          <div class="col-md-4">
+                           <nav class="navbar-nav align-self-center d.flex flex-row justify-content-center float-md-right">
+                                <a class=" nav-link"  href="index.html"> About </a>
+                                <a class=" nav-link" href="portfolio.html">Portfolio </a>
+                                <a class=" nav-link " href="contact.html">Contact</a>
+                           </nav>
+                          </div>
+                    </div>
+             </div>
     </header>
     
-    <div id="main-container" class="container">
-            <section class="main-section">
+    <div id="main-container" class="container-fluid">
+            <section class="float-left w-100 main-section">
              <h1>About Me</h1>
-                 <img class= "col-lg-8" id="Me" src="assets/images/headshot copy.jpeg" alt="Alex">
+                 <img class= "col-lg-8 float-left" id="Me" src="assets/images/headshot copy.jpeg" alt="Alex">
      
                  <p>Originally trained as a jazz musician, I now channel my inner creative in the world of web-development.  I see beauty in simplicity and always aim to write code that is both elegant and efficient.  I never tire of learning and love to incorporate the latest developments in tech to my projects.  Formerly self-taught, I have now augmented my skills with the cutting-edge curriculum of Upenn's fullstack coding bootcamp.   I believe that as a developer it is vital to contribute to the open-source community and have found it rewarding from the start.  I would not have had the perseverence to build my business without the support of the Github community. 
                  </p>
@@ -40,7 +43,7 @@
                  <p>I currently reside in Philadelphia, PA.  With work experience performing and operating the front-of-house in various cafes, I now enjoy my role behind-the-scenes as a coder.  Most days you will find me at my desk listening to music, watching the stock market, and scanning my twitter feed.  When not at home, I enjoy exploring the city by bicycle and savoring all the local goodies such as local beer and coffee.</p>
              </section>
          </div>
-         <footer class="footer">
+         <footer class="footer text-center">
                  <div class="container">
                      Copyright &copy;
                  </div>
