@@ -31,13 +31,15 @@
               </header>
     <div id="main-container" class="container-fluid">
         <section class="float-left w-100 main-section">  
-         <h1 class="subheading animated lightSpeedIn">Contact (Sample Form, not operational)</h1>              
+         <h1 class="subheading animated lightSpeedIn">Contact </h1>  
+         <h3>(Sample Form, not operational)</h3>            
             <div class="column float-left p-0 w-100">
                 <form>
                   <label for="name">Name</label>
-                  <input type="text" name="name" placeholder="John Smith">
+                  <input type="text" name="name" id="name" placeholder="John Smith" required>
                   <label for="email">Email</label>
-                  <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                  <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                  <br>
                   <label for="Message">Message</label>
                   <textarea id="message" name="message" style="height:170px"></textarea>
                   <input type="submit" value="Submit">

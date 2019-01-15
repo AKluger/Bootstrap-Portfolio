@@ -1,16 +1,16 @@
 /* Style inputs separate stylesheet for contact form*/
 
-input[type=text], select, textarea {
+input, select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #222;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
 }
 
 input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: #222;
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -21,7 +21,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ddd;
+    color: #222;
 }
 
 .column {
@@ -32,3 +33,7 @@ input[type=submit]:hover {
     /* padding: 0px; */
     /* padding: 5px 20px 5px 0px; not making an impact*/
 }
+
+/* #name   {
+    max-width: 300px;
+} */
