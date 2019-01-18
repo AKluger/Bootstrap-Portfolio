@@ -6,21 +6,22 @@ body {
     font-size: 18px;
     line-height: 34px;
     font-family:'Cairo', sans-serif;
-    color:#303030;
-    background-color: black;
+    color:#222;
+    background-color: #f1efe9;
     /* background-image: url('../folk-pattern-black/folk-pattern-black.png'); */
     
 }
 
 #masthead  {
-    background: #222;
+    background: #f1efe9;
     margin:0 0 30px;
     z-index: 99;
-    color: white;
+    color: #222;
     overflow: auto;
-    border-bottom: 2px solid #ddd;
+    /* border-bottom: 2px solid #ddd; */
     position: fixed;
     width: 100%; 
+    box-shadow: 0 0 15px 20px #f1efe9;
 }
 
 #Name  {
@@ -30,9 +31,9 @@ body {
     /* padding: 15px; */
     line-height: 90px;
     text-align: center;
-    color:white;
-    background: #ea555c;
-    font-family: 'Cairo', sans-serif;
+    color:#222;
+    background: #f1efe9;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 48px;
     text-decoration: none;
@@ -44,7 +45,7 @@ nav  {
 }
 
 nav a {
-    color: #ddd;
+    color: #222;
     text-decoration: none;
     margin-left: 15px;
     /* display: inline-block; */
@@ -64,13 +65,13 @@ nav a :first-child  {
 }
 
 .main-section  {
-    background-color:#ffffff;
+    background-color:#f1efe9;
     /* float: left; */
     /* width: 100%; */
     max-width: 960px;
     margin: 40px 0 40px 0;
     padding: 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 
@@ -87,9 +88,9 @@ h1  {
     line-height: 49px;
     border-bottom: 3px solid #222;
     padding-bottom: 20px;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight:700;
-    color:#373d42;
+    color:#222;
 }
 
 
@@ -133,7 +134,7 @@ h2, h3 {
 .card-text {
     font-family: 'Cairo', sans-serif;
    border-bottom: 0;
-   background: #ea555c;
+   background: #222;
    color: #fff;
    text-align: center;
    bottom: 20px;
@@ -145,19 +146,20 @@ h2, h3 {
     margin-top: 10px;
     margin-right: 25px;
     height:auto;
-    width:200px;
+    width:250px;
+    /* box-shadow: 0 0 20px rgba(33,33,33,.2); */
 }
 
 footer  {
-    background: #222;
-    border-top: 8px solid #ea555c;
+    background: #f1efe9;
+    border-top: 8px solid #222;
     padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #ddd;
+    color: #222;
     position: sticky;
 }
 
 a:hover{
-    color: #ea555c;
+    color: black;
 }
