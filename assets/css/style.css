@@ -128,7 +128,7 @@ h2, h3 {
 }
 
 .card:hover {
-    box-shadow: 0 0 20px rgba(33,33,33,.2); 
+    box-shadow: 0 0 25px rgba(33,33,33,.2); 
   }
 
 .card-text {
@@ -161,5 +161,13 @@ footer  {
 }
 
 a:hover{
+    color: black;
+}
+
+.folio  {
+    height: 300px;
+}
+
+#foot   {
     color: black;
 }
