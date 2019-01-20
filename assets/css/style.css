@@ -164,10 +164,15 @@ a:hover{
     color: black;
 }
 
-.folio  {
+/* .folio  {
     height: 300px;
-}
+} */
 
 #foot   {
     color: black;
+}
+
+.codeButton {
+    color: black;
+    background-color: white;
 }
