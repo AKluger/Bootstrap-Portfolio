@@ -3,4 +3,12 @@ $(document).ready(function(){
            $('#exampleModal').modal(
         show);
   });  
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
+  // $(".card-link").hover(
+  //   function() {
+  //     $(this).toggleClass('d-none')
+  //   })
 });
