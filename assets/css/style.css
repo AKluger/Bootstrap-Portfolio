@@ -7,14 +7,11 @@ body {
     line-height: 34px;
     font-family:'Cairo', sans-serif;
     color:#222;
-    background-color: #f1efe9;
-    /* background-image: url('../folk-pattern-black/folk-pattern-black.png'); */
-    
+    background-color: #f1efe9;  
 }
 
 a  {
     color: black;
-    
 }
 #masthead  {
     background: #f1efe9;
@@ -22,17 +19,12 @@ a  {
     z-index: 99;
     color: #222;
     overflow: auto;
-    /* border-bottom: 2px solid #ddd; */
     position: fixed;
     width: 100%; 
     box-shadow: 0 0 15px 20px #f1efe9;
 }
 
 #Name  {
-    /* float: left; */
-    /* width: 250px; */
-    /* height: 90px;  */
-    /* padding: 15px; */
     line-height: 90px;
     text-align: center;
     color:#222;
@@ -95,13 +87,6 @@ h1  {
     font-family: 'Playfair Display', serif;
     font-weight:700;
     color:#222;
-}
-
-
-h1, h2, h3,{
-    font-family: 'Cairo', sans-serif;
-    font-weight:700;
-    color:#ea555c;
 }
 
 h2, h3 {
@@ -201,10 +186,11 @@ a:hover{
 .codeButton {
     color: black;
     background-color: white;
+    border-radius: 25%;
 }
 
 /* .codeButton:hover{
-    transition: transform .5s;
+    transition: transform .2s;
     transform: scale(1.2);
 } */
 
